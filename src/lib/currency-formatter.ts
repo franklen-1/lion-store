@@ -1,7 +1,7 @@
 export const currencyFormatter = (value: number) => {
-  return value.toLocaleString('es-ES', {
+  return value.toLocaleString('es-PEN', {
     style: 'currency',
-    currency: 'EUR',
+    currency: 'PEN',
     minimumFractionDigits: 2,
   });
 };

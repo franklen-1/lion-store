@@ -1,11 +1,11 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { TesloShopApp } from './TesloShopApp';
+import { LionStoreApp } from './LionStoreApp';
 
 import './index.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <TesloShopApp />
+    <LionStoreApp />
   </StrictMode>
 );

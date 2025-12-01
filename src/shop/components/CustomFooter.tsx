@@ -9,7 +9,7 @@ export const CustomFooter = () => {
             <CustomLogo />
 
             <p className="text-sm text-muted-foreground">
-              Ropa inspirada en el diseño minimalista y la innovación de Tesla.
+              En nuestra tienda online encontraras ropa con comodidad, resistencia y estilo.
             </p>
           </div>
 
@@ -94,7 +94,7 @@ export const CustomFooter = () => {
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
           <p>
-            &copy; {new Date().getFullYear()} Teslo Style. Todos los derechos
+            &copy; {new Date().getFullYear()} Lion Golden Todos los derechos
             reservados.
           </p>
         </div>

@@ -31,7 +31,7 @@ const CheckAuthProvider = ({ children }: PropsWithChildren) => {
   return children;
 };
 
-export const TesloShopApp = () => {
+export const LionStoreApp = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <Toaster />

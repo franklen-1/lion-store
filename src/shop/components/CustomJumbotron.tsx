@@ -5,7 +5,7 @@ interface Props {
 
 export const CustomJumbotron = ({ title, subTitle }: Props) => {
   const defaultSubTitle =
-    'Ropa minimalista y elegante inspirada en el diseño futurista de Tesla. Calidad premium para un estilo atemporal.';
+    'En nuestra tienda online encontrarás casacas y prendas confeccionadas con dedicación, precisión y materiales de alta calidad. Cada diseño está pensado para acompañarte en tu día a día con comodidad, resistencia y estilo.';
 
   return (
     <section className="py-10 px-4 lg:px-8 bg-muted/30">
