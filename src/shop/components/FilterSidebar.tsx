@@ -85,7 +85,7 @@ export const FilterSidebar = () => {
               onClick={() => handlePriceChange('0-50')}
             />
             <Label htmlFor="price1" className="text-sm cursor-pointer">
-              $0 - $50
+              S/ 0 - S/50
             </Label>
           </div>
           <div className="flex items-center space-x-2">
@@ -96,7 +96,7 @@ export const FilterSidebar = () => {
               onClick={() => handlePriceChange('50-100')}
             />
             <Label htmlFor="price2" className="text-sm cursor-pointer">
-              $50 - $100
+              S/50 - S/100
             </Label>
           </div>
           <div className="flex items-center space-x-2">
@@ -107,7 +107,7 @@ export const FilterSidebar = () => {
               onClick={() => handlePriceChange('100-200')}
             />
             <Label htmlFor="price3" className="text-sm cursor-pointer">
-              $100 - $200
+              S/100 - S/200
             </Label>
           </div>
           <div className="flex items-center space-x-2">
@@ -118,7 +118,7 @@ export const FilterSidebar = () => {
               onClick={() => handlePriceChange('200+')}
             />
             <Label htmlFor="price4" className="text-sm cursor-pointer">
-              $200+
+              S/200+
             </Label>
           </div>
         </RadioGroup>
