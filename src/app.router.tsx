@@ -17,6 +17,10 @@ import {
   AdminRoute,
   NotAuthenticatedRoute,
 } from './components/routes/ProtectedRoutes';
+import { Nosotros } from './shop/pages/home/Nosotros';
+import { NosotrosLayout } from './shop/layouts/NosotrosLayout';
+
+
 
 const AuthLayout = lazy(() => import('./auth/layouts/AuthLayout'));
 const AdminLayout = lazy(() => import('./admin/layouts/AdminLayout'));
@@ -40,8 +44,10 @@ export const appRouter = createHashRouter([
         path: 'gender/:gender',
         element: <GenderPage />,
       },
+
     ],
   },
+
 
   // Auth Routes
   {
@@ -89,6 +95,11 @@ export const appRouter = createHashRouter([
       },
     ],
   },
+
+
+  // nosotros
+
+
   {
     path: '*',
     element: <Navigate to="/" />,

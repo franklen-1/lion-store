@@ -1,14 +1,13 @@
-import { Outlet } from 'react-router';
 import { CustomHeader } from '../components/CustomHeader';
 import { CustomFooter } from '../components/CustomFooter';
+import { Nosotros } from '../pages/home/Nosotros';
 
-export const ShopLayout = () => {
+export const NosotrosLayout = () => {
   return (
     <div className="min-h-screen bg-background">
       <CustomHeader />
 
-      <Outlet />
-
+      <Nosotros/>
 
       <CustomFooter />
     </div>
