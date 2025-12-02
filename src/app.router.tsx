@@ -17,8 +17,7 @@ import {
   AdminRoute,
   NotAuthenticatedRoute,
 } from './components/routes/ProtectedRoutes';
-import { Nosotros } from './shop/pages/home/Nosotros';
-import { NosotrosLayout } from './shop/layouts/NosotrosLayout';
+
 
 
 
